@@ -2,3 +2,122 @@
 *** Colored Bar ***
 ******************/
 .bar-height{height: .3rem;}
+
+/************* 
+*** widths ***
+*************/
+.max-widths{max-width: 192rem;}
+
+
+/************* 
+*** Margin ***
+*************/
+.mr-auto, .mx-auto{margin-right: auto;}
+.ml-auto, .mx-auto{margin-left: auto;}
+/*gör mellan rum mellan bägge kant när man förstora skärmen
+det räcker med att du skriver mx-auto*/
+
+.mt-0, .my-0 { margin-top: var(--distance-0); }     /* 0rem */ 
+.mb-0, .my-0 { margin-bottom: var(--distance-0); }
+.mt-1, .my-1 { margin-top: var(--distance-1); }     /* .25rem */ 
+.mb-1, .my-1 { margin-bottom: var(--distance-1); }
+.mt-2, .my-2 { margin-top: var(--distance-2); }     /* .5rem */ 
+.mb-2, .my-2 { margin-bottom: var(--distance-2); }
+.mt-4, .my-4 { margin-top: var(--distance-4); }     /* 1rem */ 
+.mb-4, .my-4 { margin-bottom: var(--distance-4); }
+.mt-6, .my-6 { margin-top: var(--distance-6); }     /* 1.5rem */ 
+.mb-6, .my-6 { margin-bottom : var(--distance-6); }
+.mt-8, .my-8 { margin-top: var(--distance-8); }     /* 2rem */ 
+.mb-8, .my-8 { margin-bottom: var( --distance-8); }
+.mt-10, .my-10 { margin-top: var(--distance-10); }  /*2.5rem */ 
+.mb-10, .my-10 { margin-bottom: var(--distance-10); }
+.mt-12, .my-12 { margin-top: var(--distance-12); }      /* 3rem */ 
+.mb-12, .my-12 { margin-bottom: var(--distance-12); }
+.mt-15, .my-15 { margin-top: var(--distance-15); }      /* 4rem */ 
+.mb-15, .my-15 { margin-bottom: var(--distance-15); }
+
+.mr-4, .mx-4 { margin-right: var(--distance-4); }    
+.ml-4, .mx-4 { margin-left: var(--distance-4); }
+.mr-6, .mx-6 { margin-right: var(--distance-6); }     
+.ml-6, .mx-6 { margin-left : var(--distance-6); }
+  /*gör mellanrum mellan text och icons på olika storlikar*/              
+
+/************* 
+*** Images ***
+*************/
+.logo-width{max-width: 13rem;}
+/*begränsa foto storlek*/
+
+/***************
+*** Padding ***
+***************/
+.p-4{padding:var(--distance-4);}
+.p-5{padding:var(--distance-5);}
+.p-6{padding:var(--distance-6);}
+.p-8{padding:var(--distance-8);}
+.p-12{padding:var(--distance-12);}
+.p-15{padding:var(--distance-15);}
+/* gör mellanrum runt icons*/
+
+/******************
+*** Typography ***
+******************/
+.text-decoration-none{text-decoration: none;}
+/* tas bort underline under icons*/
+
+.text-size-xxs{font-size: var(--display-xxs);}
+.text-size-xs{font-size: var(--display-xs);}
+.text-size-sm{font-size: var(--display-sm);}
+.text-size-lg{font-size: var(--display-lg);}
+.text-size-lg{font-size: var(--display-lg);}
+.text-size-xl{font-size: var(--display-xl);}
+.text-size-xxl{font-size: var(--display-xxl);}
+
+.circle{border-radius: 100%;}
+/*gör icons som cirkel */
+
+.shadow-sm{box-shadow:var(--shadow-small-light);}
+/*gör skugga runt icons */
+
+.lh-sm{line-height: var(--line-height-sm);}
+.lh-md{line-height: var(--line-height-md);}
+.lh-lg{line-height: var(--line-height-lg);}
+/*justera höjden mellan icons och text */
+
+/******************
+*** Buttons ***
+******************/
+nav div a:not(:first-child){margin-left: var(--distance-12);}
+/* gör jämt mellanrum mellan icons*/
+
+.icon-badge{
+    top: -8px;
+    right: -8px;
+    padding: var(--distance-1) var(--distance-3);
+}
+
+/******************
+*** Position ***
+******************/
+
+.position-relative{position:relative !important;}
+.position-absolute{position:absolute !important;}
+
+/****************
+*** Borders *** 
+****************/ 
+.border-small-white{border: var(--border-xs-white);}
+/* gör en liten cirkelkontur runt huvudcirkek */
+
+.border-radius{border-radius: var(--border-radius-sm);}
+/* fina ut icon kanter gör en liten båge*/
+
+.border-bottom-xs{border-bottom: var(--border-xs);}
+/* gör gränsline mellan icons behöverzooma in för att se den*/
+
+
+
+
+
+
+

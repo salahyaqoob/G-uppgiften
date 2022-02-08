@@ -37,7 +37,7 @@
     *** Distance *** 
     ***************/
     --distance-0: 0rem;
-    --distance-1: .25 rem; 
+    --distance-1: .25rem; 
     --distance-2: .5rem; 
     --distance-3: .75rem;
     --distance-4: 1rem;
@@ -45,13 +45,14 @@
     --distance-6: 1.5rem; 
     --distance-7: 1.75rem; 
     --distance-8: 2rem; 
-    --distance-9: 2.25 rem;
+    --distance-9: 2.25rem;
     --distance-10: 2.5rem;
     --distance-11: 2.75rem;
-    --distance-12: 3.25rem;
-    --distance-13: 3.5rem;
-    --distance-14: 3.75rem;
-    --distance-15: 4rem;
+    --distance-12: 3rem;
+    --distance-13: 3.25rem;
+    --distance-14: 3.5rem;
+    --distance-15: 3.75rem;
+    --distance-16: 4rem;
     
     /***************
     *** Shadows *** 
@@ -62,7 +63,7 @@
     /****************
     *** Borders *** 
     ****************/ 
-    --border-xs-white: 0.1rem solid var(--color -white);
+    --border-xs-white: 0.1rem solid var(--color-white);
     --border-xs: .1rem solid var(--color-light);
     --border-sm: .2rem solid, var(--color-light);
     --border-lg: .4rem solid var(--color-white); 

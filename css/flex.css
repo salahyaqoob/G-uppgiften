@@ -1,10 +1,26 @@
 /************** 
 *** Display ***
 ***************/
-.d-flex{display: flex;}
+.d-flex{display: flex;} 
+/*sätter alla icons på en och samma rad*/
+
+.d-none{display: none;}
+
+
 
 /************** 
 *** Flex ***
 ***************/
-.flex-grow{
-    flex-grow: 1;}
+.flex-grow{flex-grow: 1;}
+.flex-row{flex-direction: row;}
+.flex-column{flex-direction: column;}
+.flex-row-reverse{flex-direction: row-reverse;}
+/**********************
+*** Align & Justify ***
+**********************/
+.justify-content-between{ justify-content:space-between;} 
+/*gör mellanrum mellan icons i x-led*/
+
+
+.aligen-items-center{align-items: center;}
+/*gör mellanrum mellan margin och icons i y-led*/
