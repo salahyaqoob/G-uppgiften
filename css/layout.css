@@ -47,6 +47,27 @@ det räcker med att du skriver mx-auto*/
 *************/
 .logo-width{max-width: 13rem;}
 /*begränsa foto storlek*/
+.overflow-hidden{overflow: hidden;}
+/*visar en bild fast vi har flera bilder i skärmen*/
+
+.slider-width{width:400%;}
+ /*100% per bild*/
+.slider-container{width:25%;}
+ /* visa första bild av 4 bilder*/
+.slider-image{width: 100%; object-fit: cover;}
+/*den gör att visa hela bilden oavsett vad vi har för skärmstorlek*/
+
+.slider-animation{animation: 30s slider-keyframes infinite;}
+@keyframes slider-keyframes{
+    0% {left: 0%;}
+    15% {left: -100%;}
+    30% {left: -200%;}
+    45% {left: -300%;}
+    60% {left: -200%;}
+    75% {left: -100%;}
+    100% {left: 0%;}
+}
+/*rörande skärm går enligt sekunder */
 
 /***************
 *** Padding ***
@@ -64,6 +85,8 @@ det räcker med att du skriver mx-auto*/
 ******************/
 .text-decoration-none{text-decoration: none;}
 /* tas bort underline under icons*/
+.text-center{text-align: center;}
+/*centrera texten */
 
 .text-size-xxs{font-size: var(--display-xxs);}
 .text-size-xs{font-size: var(--display-xs);}
@@ -102,6 +125,14 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 
 .position-relative{position:relative !important;}
 .position-absolute{position:absolute !important;}
+/*  */
+
+.centerXY{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
 /****************
 *** Borders *** 
