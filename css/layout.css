@@ -93,6 +93,8 @@ det räcker med att du skriver mx-auto*/
 /* tas bort underline under icons*/
 .text-center{text-align: center;}
 /*centrera texten */
+.text-uppercase{text-transform: uppercase;}
+/*stora bokstäver*/
 
 .text-size-xxs{font-size: var(--display-xxs);}
 .text-size-xs{font-size: var(--display-xs);}
@@ -157,6 +159,9 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 /* gör gränsline mellan icons behöverzooma in för att se den*/
 
 .border-lightcircle-sm{border: var(--border-sm);}
+/*gör en liten cirkel (kontur cirkel) i huvudcirkel */
+
+.border-transparent{border: var(--border-transparent);}
 
 /****************
 *** Features *** 
