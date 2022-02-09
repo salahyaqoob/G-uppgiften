@@ -1,7 +1,7 @@
 /* Global property declaration */
 :root{
-    --crayon-height: 0.85rem;
-    --crayon-width: 4rem;
+    --crayon-height: 1.5rem;
+    --crayon-width: 6rem;
     --crayon-color: #237449;
     --crayon-paper-color:rgba(41,237,133,.6);
     --crayon-line-color: #237449;
@@ -9,14 +9,7 @@
 
 }  
 .crayon { 
-/*
-    --crayon-height: 0.85rem;
-    --crayon-width: 4rem;
-    --crayon-color: #237449;
-    --crayon-paper-color:rgba(41,237,133,.6);
-    --crayon-line-color: #237449;
-    --crayon-shadow-color: rgba(0, 0, 0, 0.3);
-*/   
+
     width: var(--crayon-width);
     height: var(--crayon-height);
 

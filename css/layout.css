@@ -35,12 +35,12 @@ det räcker med att du skriver mx-auto*/
 .mb-12, .my-12 { margin-bottom: var(--distance-12); }
 .mt-15, .my-15 { margin-top: var(--distance-15); }      /* 4rem */ 
 .mb-15, .my-15 { margin-bottom: var(--distance-15); }
-
+/*gör avstånd mellan(två ämne) text och icons på olika storlikar på höjdled*/ 
 .mr-4, .mx-4 { margin-right: var(--distance-4); }    
 .ml-4, .mx-4 { margin-left: var(--distance-4); }
 .mr-6, .mx-6 { margin-right: var(--distance-6); }     
 .ml-6, .mx-6 { margin-left : var(--distance-6); }
-  /*gör mellanrum mellan text och icons på olika storlikar*/              
+/*gör avstånd mellan(två ämne)text och icons på olika storlikar på sidled*/              
 
 /************* 
 *** Images ***
@@ -80,9 +80,15 @@ det räcker med att du skriver mx-auto*/
 .p-15{padding:var(--distance-15);}
 /* gör mellanrum runt icons*/
 
-/******************
-*** Typography ***
-******************/
+.pr-12, .px-12{padding-right:var(--distance-12);}
+.pl-12, .px-12{padding-left:var(--distance-12);}
+/*gör mellanrum på bägge kanter snygga till sidan px-12 motsvarar bägge sida*/
+
+
+
+/************************
+*** Typography/ övrigt***
+************************/
 .text-decoration-none{text-decoration: none;}
 /* tas bort underline under icons*/
 .text-center{text-align: center;}
@@ -100,7 +106,9 @@ det räcker med att du skriver mx-auto*/
 /*gör icons som cirkel */
 
 .shadow-sm{box-shadow:var(--shadow-small-light);}
+.shadow-lg{box-shadow:var(--shadow-large-light);}
 /*gör skugga runt icons */
+
 
 .lh-sm{line-height: var(--line-height-sm);}
 .lh-md{line-height: var(--line-height-md);}
@@ -117,6 +125,7 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
     top: -8px;
     right: -8px;
     padding: var(--distance-1) var(--distance-3);
+    /* den lilla icon position på huvud icon (nr3) */
 }
 
 /******************
@@ -125,12 +134,13 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 
 .position-relative{position:relative !important;}
 .position-absolute{position:absolute !important;}
-/*  */
+/* absolut går ihop med relative för att relative är en bildram till absolut position*/
 
 .centerXY{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    /* positionera texten i mitt av skärmen eller mitt av icon*/
 }
 
 
@@ -145,6 +155,17 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 
 .border-bottom-xs{border-bottom: var(--border-xs);}
 /* gör gränsline mellan icons behöverzooma in för att se den*/
+
+.border-lightcircle-sm{border: var(--border-sm);}
+
+/****************
+*** Features *** 
+****************/ 
+.f-width{max-width: 33% ;}
+/*avstånd mellan varje icon*/
+.icon-maincircle{width: 7.6rem;height: 7.6rem;padding: 0,375;}
+/*huvud cirkel forma ut icons enligt vår storlek*/
+.icon-subcircle{width: 6.2rem; height: 6.2rem; line-height:6rem;}
 
 
 
