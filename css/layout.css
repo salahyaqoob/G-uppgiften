@@ -6,7 +6,7 @@
 /************* 
 *** widths ***
 *************/
-.max-widths{max-width: 192rem;}
+.max-width{max-width: 192rem;}
 
 
 /************* 
@@ -40,14 +40,34 @@ det räcker med att du skriver mx-auto*/
 .ml-4, .mx-4 { margin-left: var(--distance-4); }
 .mr-6, .mx-6 { margin-right: var(--distance-6); }     
 .ml-6, .mx-6 { margin-left : var(--distance-6); }
-/*gör avstånd mellan(två ämne)text och icons på olika storlikar på sidled*/              
+/*gör avstånd mellan(två ämne)text och icons på olika storlikar på sidled*/
+
+.m-6{margin: var(--distance-6);}
+
+/***************
+*** Padding ***
+***************/
+.p-4{padding:var(--distance-4);}
+.p-5{padding:var(--distance-5);}
+.p-6{padding:var(--distance-6);}
+.p-8{padding:var(--distance-8);}
+.p-12{padding:var(--distance-12);}
+.p-15{padding:var(--distance-15);}
+/* gör mellanrum runt icons*/
+
+.pr-4, .px-4{padding-right:var(--distance-4);}
+.pl-4, .px-4{padding-left:var(--distance-4);}
+.pr-12, .px-12{padding-right:var(--distance-12);}
+.pl-12, .px-12{padding-left:var(--distance-12);}
+/*gör mellanrum på bägge kanter snygga till sidan px-12 motsvarar bägge sida*/
+
 
 /************* 
 *** Images ***
 *************/
 .logo-width{max-width: 13rem;}
 /*begränsa foto storlek*/
-.overflow-hidden{overflow: hidden;}
+.overflow-hidden{overflow:hidden;}
 /*visar en bild fast vi har flera bilder i skärmen*/
 
 .slider-width{width:400%;}
@@ -68,22 +88,6 @@ det räcker med att du skriver mx-auto*/
     100% {left: 0%;}
 }
 /*rörande skärm går enligt sekunder */
-
-/***************
-*** Padding ***
-***************/
-.p-4{padding:var(--distance-4);}
-.p-5{padding:var(--distance-5);}
-.p-6{padding:var(--distance-6);}
-.p-8{padding:var(--distance-8);}
-.p-12{padding:var(--distance-12);}
-.p-15{padding:var(--distance-15);}
-/* gör mellanrum runt icons*/
-
-.pr-12, .px-12{padding-right:var(--distance-12);}
-.pl-12, .px-12{padding-left:var(--distance-12);}
-/*gör mellanrum på bägge kanter snygga till sidan px-12 motsvarar bägge sida*/
-
 
 
 /************************

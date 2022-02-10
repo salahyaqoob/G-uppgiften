@@ -16,6 +16,7 @@
 .flex-column{flex-direction: column;}
 .flex-row-reverse{flex-direction: row-reverse;}
 .flex-wrap {flex-wrap: wrap;}/* lägga icons på varandra när vi minskar skärmstorlek*/
+.display-flex{display: flex;}
 
 /**********************
 *** Align & Justify ***
@@ -23,6 +24,7 @@
 .justify-content-between{ justify-content:space-between;} 
 /*gör mellanrum mellan icons i x-led*/
 .justify-content-center{ justify-content:center;} 
+.justify-content-around{ justify-content:space-around;} 
 
 .aligen-items-center{align-items: center;}
 /*gör mellanrum mellan margin och icons i y-led*/
