@@ -25,7 +25,7 @@
 /*gör mellanrum mellan icons i x-led*/
 .justify-content-center{ justify-content:center;} 
 .justify-content-around{ justify-content:space-around;} 
-
+/* den gör mellanrum på sidorna och mitten*/
 .aligen-items-center{align-items: center;}
 /*gör mellanrum mellan margin och icons i y-led*/
 
