@@ -6,10 +6,10 @@
 /************* 
 *** widths ***
 *************/
-.max-width{max-width: 192rem;}
-.card-width{max-width: 60rem;}
-
-
+.max-width {max-width: 192rem;}
+.card-width {max-width: 60rem;}
+.width-lg {max-width:  50%;}
+.min-width-xxl {min-width: 100%;}
 /************* 
 *** Margin ***
 *************/
@@ -44,6 +44,7 @@ det räcker med att du skriver mx-auto*/
 /*gör avstånd mellan(två ämne)text och icons på olika storlikar på sidled*/
 
 .m-6{margin: var(--distance-6);}
+.m-15 {margin: var(--distance-15);}
 
 /***************
 *** Padding ***
@@ -168,6 +169,7 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 
 .border-bottom-xs{border-bottom: var(--border-xs);}
 /* gör gränsline mellan icons behöverzooma in för att se den*/
+.border-xs{border: var(--border-sm);}
 
 .border-lightcircle-sm{border: var(--border-sm);}
 .border-lightcircle-lg{border: var(--border-lg);}
@@ -184,6 +186,8 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 .icon-maincircle{width: 7.6rem;height: 7.6rem;padding: 0,375;}
 /*huvud cirkel forma ut icons enligt vår storlek*/
 .icon-subcircle{width: 6.2rem; height: 6.2rem; line-height:6rem;}
+.icon-form-control {right: 10px;top: 10px;}
+/*icon position */
 
 /******************
 ***Statistics ***

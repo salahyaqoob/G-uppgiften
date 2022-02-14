@@ -28,6 +28,6 @@
 /* centrerar in i diven(inne) och det är skilnaden mellan den och mx (runt diven ute)*/
 .justify-content-around{ justify-content:space-around;} 
 /* den gör mellanrum på sidorna och mitten*/
-.aligen-items-center{align-items: center;}
+.align-items-center{align-items: center;}
 /*gör mellanrum mellan margin och icons i y-led*/
 
