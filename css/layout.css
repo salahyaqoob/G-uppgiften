@@ -193,7 +193,7 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 ***Statistics ***
 ******************/
 .statistics-image{
-    background-image:url('/images/fun-facts/fun-facts-bg-img.jpg');
+    background-image:url('../images/fun-facts/fun-facts-bg-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
